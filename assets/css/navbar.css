@@ -1,0 +1,40 @@
+header{
+   background: var(--cor-de-fundo);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 7em;
+    align-items: center;
+}
+
+.navbar-pesquisa{
+    margin-right: 40%;
+    width: 20%;
+
+}
+
+.navbar-pesquisa input{
+    padding: 0.8em;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+}
+
+.navbar-pesquisa input::placeholder{
+    background-image: url(../imagens/Icone.png);
+    background-repeat: no-repeat;
+    background-position: 18em;
+    font-size: 15px;
+}
+
+.navbar-login{
+    padding: 0.7em 3.4em;
+    background: var(--branco);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}

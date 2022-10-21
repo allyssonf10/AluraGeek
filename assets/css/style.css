@@ -1,0 +1,19 @@
+@import url(./navbar.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-de-fundo: #F5F5F5;
+    --branco: #FFFFFF;
+    --azul:#2A7AE4;
+}
+
+body{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
