@@ -1,3 +1,31 @@
+
+.navbar{
+    display: flex;
+ 
+    padding: 1em 1em;
+    align-items: center;
+}
+
+.logo{
+    width: 70%;
+}
+
+.navbar-login{
+    padding: 0.7em 3em;
+    background: var(--branco);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+
+.navbar-pesquisa{
+    display: none;
+}
+
+/*
 header{
    background: var(--cor-de-fundo);
 }
@@ -38,3 +66,7 @@ header{
     font-weight: 400;
     cursor: pointer;
 }
+
+.lupa{
+    display: none;
+}*/

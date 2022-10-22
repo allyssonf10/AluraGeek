@@ -1,4 +1,6 @@
 @import url(./navbar.css);
+@import url(./banner.css);
+@import url(./produtos.css);
 
 *{
     margin: 0;
@@ -10,6 +12,7 @@
     --cor-de-fundo: #F5F5F5;
     --branco: #FFFFFF;
     --azul:#2A7AE4;
+    --cinza: #464646;
 }
 
 body{
