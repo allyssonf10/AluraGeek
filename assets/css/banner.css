@@ -32,6 +32,7 @@
     background: var(--azul);
     color: var(--branco);
     cursor: pointer;
+    border: none;
 }
 
 /*
