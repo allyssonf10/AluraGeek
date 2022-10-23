@@ -67,6 +67,9 @@
     margin-top: 2em;
 }
 
+.itens-desktop{
+    display: none;
+}
 @media screen and (min-width:768px) {
 
     .star-indice-link a{
@@ -76,6 +79,19 @@
     .star-itens{
         display: flex;
         justify-content: space-between;
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+
+    .produtos{
+        padding: 1.5em 12em;
+    }
+
+    .itens-desktop{
+        display: block;
+        display: flex;
     }
     
 }

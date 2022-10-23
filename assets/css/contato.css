@@ -56,7 +56,9 @@
     border: none;
     font-weight: 600;
 }
-
+.contato-logo{
+    display: none;
+}
 @media screen and (min-width:768px) {
     .contato-caixa{
         display: flex;
@@ -89,4 +91,36 @@
         padding: 0;
     }
     
+}
+
+@media screen and (min-width:1440px){
+
+    .logo-tablet{
+        display: none;
+    }
+    .contato{
+        padding: 0 12em;
+    }
+
+   .contato-conjunto{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .contato-logo{
+    width: 29%;
+    display: block;
+   }
+   
+   .contato-inbox {
+    max-width: 50%;
+    }
+
+    .contato-lista-info{
+        padding: 0 0 0.8em 0;
+    }
+
+    .contato-conjunto{
+        width: 31%;
+    }
 }

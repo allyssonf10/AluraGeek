@@ -65,6 +65,25 @@
     }
 }
 
+@media screen and (min-width:1024px) {
+
+    .banner{
+        background: url(../imagens/Hero\ desktop.png);
+        background-position: 30% 12%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner-caixa{
+        margin: 0 12em;
+        padding: 14.5em 0 2em 0;
+    }
+
+    .banner-butao{
+        width: 16%;
+    }
+}
+
 /*
 .banner{
     background: url(../imagens/Hero.png);

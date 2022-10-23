@@ -1,13 +1,12 @@
 
 .navbar{
     display: flex;
- 
     padding: 1em 1em;
     align-items: center;
 }
 
 .logo{
-    width: 70%;
+    width: 40%;
 }
 
 .navbar-login{
@@ -25,10 +24,14 @@
     display: none;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:425px) {
     .navbar{
-        
+        justify-content: space-between;
     }
+    
+}
+
+@media screen and (min-width:768px) {
 
     .lupa{
         display: none;
@@ -62,6 +65,48 @@
         background-repeat: no-repeat;
         background-position: 15em;
         font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .navbar{
+        padding: 2em 12em;
+        align-items: center;
+    }
+
+    .logo{
+        max-width: 17%;
+    }
+    
+    .navbar-login{
+        right: 9%;
+    }
+
+    .navbar-pesquisa{
+        width: 30%;
+        display: block;
+        margin-left: 15px;
+        background: var(--cor-de-fundo);
+        background-image: url(../imagens/Icone.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 1em 0;
+        border-radius: 50px;
+    }
+    
+    .navbar-pesquisa input{
+        padding: 0;
+        margin-left: 10px;
+        border: none;
+        width: 85%;
+        background: var(--branco);
+    }
+    
+    .navbar-pesquisa input::placeholder{
+        color: var(--cinza);
+        font-size: 15px;
+        background-image: none;
     }
 }
 
