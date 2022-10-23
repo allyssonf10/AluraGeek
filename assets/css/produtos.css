@@ -67,3 +67,15 @@
     margin-top: 2em;
 }
 
+@media screen and (min-width:768px) {
+
+    .star-indice-link a{
+        font-size: 16px;
+    }
+
+    .star-itens{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}

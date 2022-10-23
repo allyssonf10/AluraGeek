@@ -25,6 +25,46 @@
     display: none;
 }
 
+@media screen and (min-width:768px) {
+    .navbar{
+        
+    }
+
+    .lupa{
+        display: none;
+    }
+    
+    .logo{
+        width: 20%;
+    }
+
+    .navbar-login{
+        position: absolute;
+        right: 5px;
+    }
+
+    .navbar-pesquisa{
+        width: 40%;
+        display: block;
+        margin-left: 15px;
+    }
+    
+    .navbar-pesquisa input{
+        padding: 0.8em;
+        border-radius: 50px;
+        border: none;
+        width: 100%;
+        background: var(--cor-de-fundo);
+    }
+    
+    .navbar-pesquisa input::placeholder{
+        background-image: url(../imagens/Icone.png);
+        background-repeat: no-repeat;
+        background-position: 15em;
+        font-size: 15px;
+    }
+}
+
 /*
 header{
    background: var(--cor-de-fundo);
@@ -32,7 +72,7 @@ header{
 
 .navbar{
     display: flex;
-    justify-content: space-between;
+    
     padding: 2em 7em;
     align-items: center;
 }

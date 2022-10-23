@@ -35,6 +35,36 @@
     border: none;
 }
 
+@media screen and (min-width:768px) {
+
+    .banner{
+        background: url(../imagens/Hero-tablet.png);
+        background-position: 30% 55%;
+    }
+
+    .banner-caixa{
+        padding: 10.5em 0 2em 0;
+    }
+    
+    .banner-titulo{
+        font-size: 52px;
+        font-weight: 700;
+    }
+
+    .banner-info{
+        font-size: 22px;
+        font-weight: 700;
+        padding:0 0 1em 0;
+        margin-top: 6px;
+    }
+
+    .banner-butao{
+        width: 18%;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+}
+
 /*
 .banner{
     background: url(../imagens/Hero.png);
