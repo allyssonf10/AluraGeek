@@ -1,0 +1,58 @@
+.contato{
+    background: var(--azul-claro);
+}
+
+.contato-caixa{
+    padding: 1em;
+    padding-top: 2em;
+}
+
+.contato-conjunto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-contato{
+    max-width: 50%;
+}
+
+.contato-lista{
+    margin-bottom: 2em;
+}
+
+.contato-lista-info{
+    padding: 0.5em 0;
+    color: var(--cinza);
+    font-size: 16px;
+}
+
+.contato-inbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-inbox h2{
+    font-weight: 700;
+    color: var(--cinza);
+}
+
+.contato-lista-info{
+    list-style-type: none;
+}
+
+#nome, #msg{
+    border: none;
+    padding: 2em;
+    margin-bottom: 0.5em;
+}
+
+.contato-mensagem{
+    width: 40%;
+    padding: 1em;
+    background: var(--azul);
+    color: var(--branco);
+    border: none;
+    font-weight: 600;
+}
