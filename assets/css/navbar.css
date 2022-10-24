@@ -4,11 +4,11 @@
     padding: 1em 1em;
     align-items: center;
 }
-
+/*
 .logo{
     width: 40%;
 }
-
+*/
 .navbar-login{
     padding: 0.7em 3em;
     background: var(--branco);
@@ -37,11 +37,11 @@
     .lupa{
         display: none;
     }
-    
+    /*
     .logo{
         width: 20%;
     }
-
+*/
     .navbar-login{
         position: absolute;
         right: 5px;
@@ -75,11 +75,11 @@
         padding: 2em 12em;
         align-items: center;
     }
-
+/*
     .logo{
         max-width: 17%;
     }
-    
+  */  
     .navbar-login{
         right: 9%;
     }
