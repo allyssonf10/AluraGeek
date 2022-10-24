@@ -1,0 +1,42 @@
+.loguin{
+    padding: 1em;
+    background: var(--cor-de-fundo);
+}
+
+.loguin-caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+.loguin-titulo{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cinza);
+}
+
+.loguin-dados{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.email,
+.senha{
+    padding: 1em;
+    margin: 1em 0;
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.botao{
+    background: var(--azul);
+    color: var(--branco);
+    border: none;
+    width: 30%;
+    padding: 1em 0;
+}
