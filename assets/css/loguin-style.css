@@ -1,3 +1,4 @@
+
 .loguin{
     padding: 1em;
     background: var(--cor-de-fundo);
@@ -39,4 +40,26 @@
     border: none;
     width: 30%;
     padding: 1em 0;
+    cursor: pointer;
+}
+
+.navbar-login-saida{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .loguin-dados{
+        width: 56%; 
+    }
+    
+}
+
+@media screen and (min-width:1440px){
+    .loguin-dados{
+        width: 32%; 
+    }
+
+    .email, .senha, .botao{
+        width: 100%;
+    }
 }
