@@ -1,3 +1,3 @@
 # AluraGeek
 
-![(./assets/imagens/alurageek.png)]
+![Design preview for the Interactive rating component coding challenge](./assets/imagens/alurageek.png)
