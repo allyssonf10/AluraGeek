@@ -1,0 +1,36 @@
+.adc-produtos{
+    background: var(--cor-de-fundo);
+}
+
+.adc-info{
+    padding: 0 1.5em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.adc-info h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cinza);
+    padding-bottom: 0.5em;
+}
+
+.adc-item button{
+    background: var(--azul);
+    border: none;
+    padding: 0.7em;
+    color: var(--branco);
+}
+
+.itens-desktop{
+   display: flex;
+}
+.adm-produtos{
+   grid-template-rows: repeat(9, 1fr);
+ }  
+
+ .card-icon{
+    position: absolute;
+    z-index: 1
+ }
+ 
