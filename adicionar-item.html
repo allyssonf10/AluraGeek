@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-add">
+            <a href="./index.html"> <img src="../assets/imagens/Logo (1).png" class="logo" alt="Logo da alura geek"></a>
+            <div class="navbar-pesquisa">
+                <input type="search" placeholder="O que deseja encontrar?">
+            </div>
+            <a class="menu-adm" href="./area-adm.html"><button>Menu administrador</button> </a>
+            <a href="https://www.google.com/search?client=opera&q=google&sourceid=opera&ie=UTF-8&oe=UTF-8" class="navbar-login navbar-login-saida"> Login</a> 
+            <img src="./assets/imagens/Vector.png" class="lupa" alt="lupa de pesquisa">
+        </div>
+    </header>
+<main>
+    <section class="new-item">
+        <div class="new-item-caixa">
+       <h2>Adicionar novo produto</h2>
+       <form class="item-list" action="">
+            <input class="new-list" type="text" placeholder="URL da imagem" >
+            <input class="new-list" type="text" placeholder="Categoria" >
+            <input class="new-list" type="text" placeholder="Nome do produo" >
+            <input class="new-list" type="text" placeholder="Preço do produto" >
+            <label for="descricao">Descrição do produto</label>
+            <textarea class="new-list" name="" id="descricao" cols="30" rows="5"></textarea>
+            <a class="add-produto" href="#"><button>Adicionar produto</button> </a>
+       </form>
+       </div>
+    </section>
+</main>
+    
+
+    <section class="contato">
+        <div class="contato-caixa">
+                <div class="contato-logo">
+                    <img src="../assets/imagens/Logo (1).png" class="logo-contato" alt="Logo da alura geek">
+                </div>
+            <div class="contato-conjunto">
+                <img src="../assets/imagens/Logo (1).png" class="logo-contato logo-tablet" alt="Logo da alura geek">
+                <ul class="contato-lista">
+                    <li class="contato-lista-info"> Quem somos nós</li>
+                    <li class="contato-lista-info"> Política de privacidade</li>
+                    <li class="contato-lista-info"> Programa fidelidade</li>
+                    <li class="contato-lista-info"> Nossas lojas</li>
+                    <li class="contato-lista-info"> Quero ser franqueado</li>
+                    <li class="contato-lista-info"> Anuncie aqui</li>
+                </ul>
+            </div>
+
+            <div class="contato-inbox">
+                <h2>Fale conosco</h2>
+                <label for="input">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="msg">Menssagem</label>
+                <textarea name="msg" id="msg" cols="10" rows="5"></textarea>
+                <button class="contato-mensagem" type="button">Enviar mensagem</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Desenvolvido por Allysson Neves 2022</h2>
+    </footer>
+</body>
+</html>

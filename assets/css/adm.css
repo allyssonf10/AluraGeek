@@ -20,6 +20,7 @@
     border: none;
     padding: 0.7em;
     color: var(--branco);
+    cursor: pointer;
 }
 
 .itens-adm{

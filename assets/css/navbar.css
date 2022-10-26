@@ -85,7 +85,7 @@
     }
 
     .navbar-pesquisa{
-        width: 30%;
+        width: 32%;
         display: block;
         margin-left: 15px;
         background: var(--cor-de-fundo);
@@ -97,7 +97,7 @@
     }
     
     .navbar-pesquisa input{
-        padding: 0;
+        padding: 6px 3px;
         margin-left: 10px;
         border: none;
         width: 85%;

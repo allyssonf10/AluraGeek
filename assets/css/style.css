@@ -6,6 +6,7 @@
 @import url(./loguin-style.css);
 @import url(./info-produto.css);
 @import url(./adm.css);
+@import url(./adc-item.css);
 
 *{
     margin: 0;
